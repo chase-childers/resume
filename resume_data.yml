@@ -2,26 +2,32 @@ sections:
         - title: Hello
           type: information
           image: hello.png
-          statement: I'm a computer engineer.
+          statement: Hello World!
         - title: About Me
-          type: information
-          statement: I'm from Kentucky have N years of experience
-          highlights: 
-                - java
-                - python
-                - ruby
-                - rails
+          type: experience 
+          statement: Experienced Software Engineer with a demonstrated history of working in the industry. Engineering professional skilled in Java, Ruby, and Go back-end services; web applications; service discovery utilizing Envoy, HAProxy, and Zookeeper; Service Mesh; Kubernetes and Containerized oriented application development; service oriented architecture; service and hardware oriented monitoring and alarming; and cloud infrastructure. 
+          experience: 
+                - Java
+                - Python
+                - Ruby
+                - Rails
+                - Git
+                - HTML
+                - JSON
+                - AJAX
         - title: Work History
           type: jobs
           jobs:
                 - company: Airbnb
                   time: July 2017 - Present
                   positions:
-                    - title: Site Reliability Engineer
+                    - title: Infrastructure Software Engineer 
                       team: Infrastructure - Site Reliability Engineering
                       points:
-                        - Infra
-                        - Things
+                        - Embed on product teams to consult on their service's observability, reliability, maintainability, and production readiness from an infrastructure perspective.
+                        - Coordinate infrastructure preparation efforts for press conferences, public relation events, and new feature launch events.
+                        - Created guidelines for which services owners can prepare and audit their systems for launch via a Production Readiness Review
+                        - Designed and implemented a service discovery configuration orchestration library utilized by Kubernetes (K8) application generation, K8 side cars, and offline services.
                 - company: Amazon
                   time: March 2014 - May 2017
                   positions: 
@@ -63,10 +69,8 @@ sections:
           projects:
                 - title: synapse
                   github_url: https://github.com/airbnb/synapse
-                - title: something
-                  github_url: https://github.com/airbnb/synapse
         - title: Hit Me Up
-          type: information
+          type: contact 
           statement: Find me
           email: d.chase.childers@gmail.com
 social_media:
