@@ -15,25 +15,49 @@ sections:
           type: jobs
           jobs:
                 - company: Airbnb
-                  title: software engineer
                   time: July 2017 - Present
-                  points:
-                          - Infra
-                          - Things
+                  positions:
+                    - title: Site Reliability Engineer
+                      team: Infrastructure - Site Reliability Engineering
+                      points:
+                        - Infra
+                        - Things
                 - company: Amazon
-                  title: software engineer
                   time: March 2014 - May 2017
-                  points:
-                          - AWS
-                          - DSV
-                          - Things
+                  positions: 
+                    - title: Software Development Engineer
+                      team: AWS L7 Networking Team
+                      points:
+                        - Developed and migrated hundreds of customer facing virtual IP's (VIPs) from SSL to TCP for Apple Transport Security Layer Application Compliance.
+                        - Owned and developed tools in Java, Python, and Perl that interface with hardware based load 
+                        - Design and implement a metrics monitoring agent for a service canary that leverages cluster based distributed computation methodologies for horizontal scaling.
+                        - Things
+                    - title: Software Engineer
+                      team: Digital Software and Video Games Team
+                      points: 
+                        - Owned and contributed to the Amazon Developer Portal that leverages Google Web Toolkit (GWT), JQuery, JavaScript, JSP, and HTML front-ends using MVP / MVC
+                        - Created and modified back-end services that utilized Amazon SWF, SQS, EC2, S3, DynamoDB, and SQL relational databases.
+                        - Consulted on design and architecture decisions for transforming and orchestrating data between multiple sources and down stream services.
+                    - title: Other Contributions
+                      team: Amazon
+                      points:
+                              - Launched release night delivery for video games with the Amazon PrimeNow team.
+                              - Annually interviewed 150+ interns, software development engineers, and web development engineers.
+                              - Won Media Innovation Challenge for integrating Amazon Vine with digital products.
+                              - Lead trainings for engineerings and product managers on Scrum and Agile processes
+                              - Mentored 3 software engineering interns, and 5 full time software engineers.
                 - company: Intel
-                  title: computer engineer
                   time: May 2012 - February 2014
-                  points:
-                          - computers
-                          - math
-                          - things
+                  positions:
+                          - title: Computer Engineer
+                            team: Circuit Marginality Validation
+                            points: 
+                              - Design, implement, and debug single and multi-threaded algorithms and processes in x86 Assembly utilized for identifying processor speed-paths.
+                              - Developer a framework for generating x86 Assembly algorithms for different processor architectures and configurations in C#, C++, and C
+                              - Lead the publication and presentation of a technical paper on the important concepts in speed-path hunting for the internal Design and Test Technology Conference.
+                              - "Design, implement, debug, and maintain multiple speed-path detecting algorithms: 'lock'-less multithreaded cache-coherency test; multi-socket QuickPath Interconnect (QPI) stress test; and a cache-line data pattern specific test for memory controllers" 
+                              - Collaborated, researched, and updated an API that interfaces with a Direct Memory Accessor (DMA) device over USB to utilize new USB 3.0 speeds
+                              - Collaborate and assist in the training of fellow Intel Employees on x86 Assembly
         - title: Open Source Projects
           type: projects
           projects:
