@@ -70,6 +70,7 @@ sections:
                               - Collaborate and assist in the training of fellow Intel Employees on x86 Assembly
         - title: Open Source Projects
           type: projects
+          asset: https://chase-childers-assets.s3.amazonaws.com/images/computers.jpg
           projects:
                 - title: synapse
                   github_url: https://github.com/airbnb/synapse
