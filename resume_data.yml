@@ -1,9 +1,9 @@
 sections:
-        - title: Hello
-          type: information
-          image: hello.png
-          statement: Hello World!
+        - title: Hello World
+          type: intro 
+          asset: https://chase-childers-assets.s3.amazonaws.com/images/hello_world.jpg 
         - title: About Me
+          asset: https://chase-childers-assets.s3.amazonaws.com/images/skyline.jpg
           type: experience 
           statement: Experienced Software Engineer with a demonstrated history of working in the industry. Engineering professional skilled in Java, Ruby, and Go back-end services; web applications; service discovery utilizing Envoy, HAProxy, and Zookeeper; Service Mesh; Kubernetes and Containerized oriented application development; service oriented architecture; service and hardware oriented monitoring and alarming; and cloud infrastructure. 
           experience: 
@@ -17,9 +17,11 @@ sections:
                 - AJAX
         - title: Work History
           type: jobs
+          asset: https://chase-childers-assets.s3.amazonaws.com/images/downtown.jpg
           jobs:
                 - company: Airbnb
                   time: July 2017 - Present
+                  asset: https://chase-childers-assets.s3.amazonaws.com/images/Airbnb.png
                   positions:
                     - title: Infrastructure Software Engineer 
                       team: Infrastructure - Site Reliability Engineering
@@ -30,6 +32,7 @@ sections:
                         - Designed and implemented a service discovery configuration orchestration library utilized by Kubernetes (K8) application generation, K8 side cars, and offline services.
                 - company: Amazon
                   time: March 2014 - May 2017
+                  asset: https://chase-childers-assets.s3.amazonaws.com/images/AWS.png
                   positions: 
                     - title: Software Development Engineer
                       team: AWS L7 Networking Team
@@ -54,6 +57,7 @@ sections:
                               - Mentored 3 software engineering interns, and 5 full time software engineers.
                 - company: Intel
                   time: May 2012 - February 2014
+                  asset: https://chase-childers-assets.s3.amazonaws.com/images/intel.png
                   positions:
                           - title: Computer Engineer
                             team: Circuit Marginality Validation
@@ -76,3 +80,4 @@ sections:
 social_media:
         linkedin: https://www.linkedin.com/in/chase-childers/
         github: https://github.com/chase-childers
+        email: d.chase.childers@gmail.com
