@@ -4,7 +4,8 @@ sections:
           asset: https://chase-childers-assets.s3.amazonaws.com/images/hello_world.jpg 
         - title: About Me
           asset: https://chase-childers-assets.s3.amazonaws.com/images/skyline.jpg
-          type: experience 
+          type: experience
+          profile: https://chase-childers-assets.s3.amazonaws.com/images/profile.jpg 
           statement: Experienced Software Engineer with a demonstrated history of working in the industry. Engineering professional skilled in Java, Ruby, and Go back-end services; web applications; service discovery utilizing Envoy, HAProxy, and Zookeeper; Service Mesh; Kubernetes and Containerized oriented application development; service oriented architecture; service and hardware oriented monitoring and alarming; and cloud infrastructure. 
           experience: 
                 - Java
@@ -40,8 +41,7 @@ sections:
                         - Developed and migrated hundreds of customer facing virtual IP's (VIPs) from SSL to TCP for Apple Transport Security Layer Application Compliance.
                         - Owned and developed tools in Java, Python, and Perl that interface with hardware based load 
                         - Design and implement a metrics monitoring agent for a service canary that leverages cluster based distributed computation methodologies for horizontal scaling.
-                        - Things
-                    - title: Software Engineer
+                    - title: Software Development Engineer
                       team: Digital Software and Video Games Team
                       points: 
                         - Owned and contributed to the Amazon Developer Portal that leverages Google Web Toolkit (GWT), JQuery, JavaScript, JSP, and HTML front-ends using MVP / MVC
