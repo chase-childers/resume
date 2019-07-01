@@ -1,3 +1,9 @@
+# Outline
+
+The idea of this repository is to define resume data in a single place, with change history.  This data will follow a schema, which other web projects can consume to display the uniform data in different ways.  This allows for learning and displaying the skills of different frameworks from a single source of truth.
+
+Currently, this YAML is being stored in S3 and will be pulled from the corresponding bucket.  This also enables fast decemination of information across all frameworks whenever the data needs to change.  
+
 # Resume Data Schema
 
 - `sections` - An ordered list of sections that will be generated for display.  
