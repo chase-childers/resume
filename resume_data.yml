@@ -72,8 +72,23 @@ sections:
           type: projects
           asset: https://chase-childers-assets.s3.amazonaws.com/images/computers.jpg
           projects:
-                - title: synapse
-                  github_url: https://github.com/airbnb/synapse
+                - title: rails-resume
+                  description: This is the rails variation of my personal portfolio site built with Ruby on Rails and deployed via Docker Containers.
+                  urls: 
+                        github: https://github.com/chase-childers/rails-resume
+                        website: http://chasechilders.com
+                  technologies: 
+                        - Rails
+                        - Ruby
+                        - Docker
+                        - S3
+                - title: resume 
+                  description: YAML format for my resume that is stored in S3 for distribution among web frameworks.
+                  technologies:
+                        - YAML
+                        - S3
+                  urls:
+                        github: https://github.com/chase-childers/resume
         - title: Hit Me Up
           type: contact 
           statement: I'm not actively looking for new job opportunities, but always down to hear about different opportunites.  
@@ -81,4 +96,4 @@ sections:
 social_media:
         linkedin: https://www.linkedin.com/in/chase-childers/
         github: https://github.com/chase-childers
-        email: d.chase.childers@gmail.com
+        envelope: mailto:d.chase.childers@gmail.com
