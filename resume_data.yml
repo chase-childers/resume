@@ -33,7 +33,7 @@ sections:
                         - Designed and implemented a service discovery configuration orchestration library utilized by Kubernetes (K8) application generation, K8 side cars, and offline services.
                 - company: Amazon
                   time: March 2014 - May 2017
-                  asset: https://chase-childers-assets.s3.amazonaws.com/images/AWS.png
+                  asset: https://chase-childers-assets.s3.amazonaws.com/images/aws-clear.svg
                   positions: 
                     - title: Software Development Engineer
                       team: AWS L7 Networking Team
@@ -91,9 +91,9 @@ sections:
                         github: https://github.com/chase-childers/resume
         - title: Hit Me Up
           type: contact 
+          asset: https://chase-childers-assets.s3.amazonaws.com/images/mountains.jpeg
           statement: I'm not actively looking for new job opportunities, but always down to hear about different opportunites.  
-          email: d.chase.childers@gmail.com
-social_media:
-        linkedin: https://www.linkedin.com/in/chase-childers/
-        github: https://github.com/chase-childers
-        envelope: mailto:d.chase.childers@gmail.com
+          contact:
+                linkedin: https://www.linkedin.com/in/chase-childers/
+                github: https://github.com/chase-childers
+                envelope: mailto:d.chase.childers@gmail.com
