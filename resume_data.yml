@@ -6,7 +6,7 @@ sections:
           asset: https://chase-childers-assets.s3.amazonaws.com/images/skyline.jpg
           type: experience
           profile: https://chase-childers-assets.s3.amazonaws.com/images/profile.jpg 
-          statement: Experienced Software Engineer with a demonstrated history of working in the industry. Engineering professional skilled in Java, Ruby, and Go back-end services; web applications; service discovery utilizing Envoy, HAProxy, and Zookeeper; Service Mesh; Kubernetes and Containerized oriented application development; service oriented architecture; service and hardware oriented monitoring and alarming; and cloud infrastructure. 
+          statement: Experienced highly adaptable Software Engineer with a demonstrated history of working in the industry. Engineering professional skilled in Java, Ruby, and Go back-end services; web applications; service discovery utilizing Envoy, HAProxy, and Zookeeper; Service Mesh; Kubernetes and Containerized oriented application development; service oriented architecture; service and hardware oriented monitoring and alarming; and cloud infrastructure. 
           experience: 
                 - Java
                 - Python
@@ -16,6 +16,7 @@ sections:
                 - HTML
                 - JSON
                 - AJAX
+                - AWS
         - title: Work History
           type: jobs
           asset: https://chase-childers-assets.s3.amazonaws.com/images/downtown.jpg
@@ -81,7 +82,8 @@ sections:
                         - Rails
                         - Ruby
                         - Docker
-                        - S3
+                        - AWS S3
+                        - AWS CodeBuilder
                 - title: resume 
                   description: YAML format for my resume that is stored in S3 for distribution among web frameworks.
                   technologies:
@@ -89,11 +91,20 @@ sections:
                         - S3
                   urls:
                         github: https://github.com/chase-childers/resume
+                - title: Pi Projects 
+                  description: Notes on setting up Raspberry Pi based projects.  This includes a local kubernetes cluster.
+                  technologies:
+                        - Kubernetes
+                        - Raspberry Pi
+                        - Hardware
+                  urls:
+                        github: https://github.com/chase-childers/raspberry-pi-projects
         - title: Hit Me Up
           type: contact 
           asset: https://chase-childers-assets.s3.amazonaws.com/images/mountains.jpeg
-          statement: I'm not actively looking for new job opportunities, but always down to hear about different opportunites.  
+          statement: I'm not actively looking for a new job, but always interested in hearing about potential opportunites.  
           contact:
                 linkedin: https://www.linkedin.com/in/chase-childers/
                 github: https://github.com/chase-childers
                 envelope: mailto:d.chase.childers@gmail.com
+                instagram: https://www.instagram.com/geeky_lifter/
