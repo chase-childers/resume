@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  post_build:
+    commands:
+      - cp resume_data.yml resume_data_staging.yml
+artifacts:
+  files:
+    - resume_data.yml
+    - resume_data_staging.yml
