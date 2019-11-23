@@ -3,11 +3,12 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      docker: 18
-  post_build:
+      python: 3.7
     commands:
-      - cp resume_data.yml resume_data_staging.yml
+      - aws --version
+  build:
+    commands:
+      - aws s3 cp resume_data.yml s3://$BUCKET_NAME/resume_data_staging.yml
 artifacts:
   files:
     - resume_data.yml
-    - resume_data_staging.yml
