@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.7
+    commands:
+      - aws --version
+  build:
+    commands:
+      - aws s3 cp resume_data.yml s3://$BUCKET_NAME/resume_data_staging.yml
+artifacts:
+  files:
+    - resume_data.yml
