@@ -1,6 +1,9 @@
 version: 0.2
 
 phases:
+  install:
+    runtime-versions:
+      docker: 18
   post_build:
     commands:
       - cp resume_data.yml resume_data_staging.yml
