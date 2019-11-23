@@ -73,6 +73,16 @@ sections:
           type: projects
           asset: https://chase-childers-assets.s3.amazonaws.com/images/computers.jpg
           projects:
+                - title: Service Discovery
+                  description: An overview of Service Discovery and Service Mesh at Airbnb.  
+                  urls:
+                        website: https://youtu.be/XQjOhJtw1wg
+                  technologies:
+                        - Kubernetes
+                        - Service Mesh
+                        - Smartstack
+                        - Envoy
+                        - Service Discovery
                 - title: rails-resume
                   description: This is the rails variation of my personal portfolio site built with Ruby on Rails and deployed via Docker Containers.
                   urls: 
@@ -108,3 +118,4 @@ sections:
                 github: https://github.com/chase-childers
                 envelope: mailto:d.chase.childers@gmail.com
                 instagram: https://www.instagram.com/geeky_lifter/
+                twitter: https://twitter.com/dchasechilders
