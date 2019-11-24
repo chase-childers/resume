@@ -74,9 +74,10 @@ sections:
           asset: https://chase-childers-assets.s3.amazonaws.com/images/computers.jpg
           projects:
                 - title: Service Discovery
-                  description: An overview of Service Discovery and Service Mesh at Airbnb.  
+                  description: An overview of Service Discovery and Service Mesh at Airbnb.  Walking through the past, present, and future (as of 2019) of Service Discovery through Airbnb's migrations to Kubernetes and Envoy.
                   urls:
                         website: https://youtu.be/XQjOhJtw1wg
+                        website: https://chase-childers-assets.s3.amazonaws.com/documents/AirbnbServiceDiscovery_KubeCon_2019.pdf
                   technologies:
                         - Kubernetes
                         - Service Mesh
