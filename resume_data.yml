@@ -69,15 +69,17 @@ sections:
                               - "Design, implement, debug, and maintain multiple speed-path detecting algorithms: 'lock'-less multithreaded cache-coherency test; multi-socket QuickPath Interconnect (QPI) stress test; and a cache-line data pattern specific test for memory controllers" 
                               - Collaborated, researched, and updated an API that interfaces with a Direct Memory Accessor (DMA) device over USB to utilize new USB 3.0 speeds
                               - Collaborate and assist in the training of fellow Intel Employees on x86 Assembly
-        - title: Open Source Projects
+        - title: Projects
           type: projects
           asset: https://chase-childers-assets.s3.amazonaws.com/images/computers.jpg
           projects:
-                - title: Service Discovery
+                - title: KubeCon 2019 
                   description: An overview of Service Discovery and Service Mesh at Airbnb.  Walking through the past, present, and future (as of 2019) of Service Discovery through Airbnb's migrations to Kubernetes and Envoy.
                   urls:
-                        youtube: https://youtu.be/XQjOhJtw1wg
-                        website: https://chase-childers-assets.s3.amazonaws.com/documents/AirbnbServiceDiscovery_KubeCon_2019.pdf
+                        - link: https://youtu.be/XQjOhJtw1wg
+                          icon: youtube
+                        - link: https://chase-childers-assets.s3.amazonaws.com/documents/AirbnbServiceDiscovery_KubeCon_2019.pdf
+                          icon: file 
                   technologies:
                         - Kubernetes
                         - Service Mesh
@@ -87,8 +89,10 @@ sections:
                 - title: rails-resume
                   description: This is the rails variation of my personal portfolio site built with Ruby on Rails and deployed via Docker Containers.
                   urls: 
-                        github: https://github.com/chase-childers/rails-resume
-                        website: http://chasechilders.com
+                        - link: https://github.com/chase-childers/rails-resume
+                          icon: github
+                        - link: http://chasechilders.com
+                          icon: link
                   technologies: 
                         - Rails
                         - Ruby
@@ -101,7 +105,8 @@ sections:
                         - YAML
                         - S3
                   urls:
-                        github: https://github.com/chase-childers/resume
+                        - link: https://github.com/chase-childers/resume
+                          icon: github
                 - title: Pi Projects 
                   description: Notes on setting up Raspberry Pi based projects.  This includes a local kubernetes cluster.
                   technologies:
@@ -109,14 +114,20 @@ sections:
                         - Raspberry Pi
                         - Hardware
                   urls:
-                        github: https://github.com/chase-childers/raspberry-pi-projects
+                        - link: https://github.com/chase-childers/raspberry-pi-projects
+                          icon: github
         - title: Hit Me Up
           type: contact 
           asset: https://chase-childers-assets.s3.amazonaws.com/images/mountains.jpeg
           statement: I'm not actively looking for a new job, but always interested in hearing about potential opportunites.  
           contact:
-                linkedin: https://www.linkedin.com/in/chase-childers/
-                github: https://github.com/chase-childers
-                envelope: mailto:d.chase.childers@gmail.com
-                instagram: https://www.instagram.com/geeky_lifter/
-                twitter: https://twitter.com/dchasechilders
+                - link: https://www.linkedin.com/in/chase-childers/
+                  icon: linkedin
+                - link: https://github.com/chase-childers
+                  icon: github
+                - link: mailto:d.chase.childers@gmail.com
+                  icon: envelope
+                - link: https://www.instagram.com/geeky_lifter/
+                  icon: instagram
+                - link: https://twitter.com/dchasechilders
+                  icon: twitter
