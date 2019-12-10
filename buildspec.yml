@@ -10,7 +10,7 @@ phases:
     commands:
       - aws s3 cp data/resume_data.yml s3://$BUCKET_NAME/data/resume_data_staging.yml
       - aws s3 cp assets/welcome.css s3://$BUCKET_NAME/data/welcome_staging.css
-      - aws s3 cp assets/application.js s3://$BUCKET_NAME/data/application.js
+      - aws s3 cp assets/application.js s3://$BUCKET_NAME/data/application_staging.js
 artifacts:
   files:
     - resume_data.yml
