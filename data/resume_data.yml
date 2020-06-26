@@ -6,7 +6,7 @@ sections:
           asset: https://chase-childers-assets.s3.amazonaws.com/images/skyline.jpg
           type: experience
           profile: https://chase-childers-assets.s3.amazonaws.com/images/profile.jpg 
-          statement: Experienced highly adaptable Software Engineer with a demonstrated history of working in the industry. Engineering professional skilled in Java, Ruby, and Go back-end services; web applications; service discovery utilizing Envoy, HAProxy, and Zookeeper; Service Mesh; Kubernetes and Containerized oriented application development; service oriented architecture; service and hardware oriented monitoring and alarming; and cloud infrastructure. 
+          statement: Experienced adaptable Software Engineer with a demonstrated history of working in the industry. Engineering professional skilled in Java, Ruby, Python, and Go back-end services; web applications; service discovery utilizing Envoy, HAProxy, and Zookeeper; Service Mesh; Kubernetes and Containerized oriented application development; service oriented architecture; service and hardware oriented monitoring and alarming; and cloud infrastructure. 
           experience: 
                 - Java
                 - Python
@@ -21,8 +21,15 @@ sections:
           type: jobs
           asset: https://chase-childers-assets.s3.amazonaws.com/images/downtown.jpg
           jobs:
+                - company: PrizePool
+                  time: June 2020 - Present
+                  asset: https://chase-childers-assets.s3.amazonaws.com/images/prizepool.png
+                  positions:
+                    - title: Software Engineer
+                      points:
+                        - Working towards launching the product to customers.
                 - company: Airbnb
-                  time: July 2017 - Present
+                  time: July 2017 - June 2020
                   asset: https://chase-childers-assets.s3.amazonaws.com/images/Airbnb.png
                   positions:
                     - title: Infrastructure Software Engineer 
