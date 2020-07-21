@@ -25,8 +25,12 @@ sections:
                   time: June 2020 - Present
                   asset: https://chase-childers-assets.s3.amazonaws.com/images/prizepool.png
                   positions:
-                    - title: Software Engineer
+                    - title: Engineer
+                      team: Engineering
                       points:
+                        - Build out, modify, and maintain the Kubernetes cluster in Google Cloud utilizing GKE.
+                        - Implement data analaytics and user notifications for event driven actions from the backend server.
+                        - Vet vendors for technical integrations, availability, and interoperability.
                         - Working towards launching the product to customers.
                 - company: Airbnb
                   time: July 2017 - June 2020
