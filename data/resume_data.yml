@@ -29,9 +29,12 @@ sections:
                       team: Engineering
                       points:
                         - Build out, modify, and maintain the Kubernetes cluster in Google Cloud utilizing GKE.
+                        - Utilize horizontal pod autoscalers (HPAs) and node auto scaling groups for productionizing our backend services.
+                        - Migrate Infrastructure into Terraform and build out modules to quickly standardize and scale out multiple environments in under a week.
+                        - Initialize and productionize the Observability stack; Prometheus for metrics collection and Grafana for data visualization.
                         - Implement data analaytics and user notifications for event driven actions from the backend server.
                         - Vet vendors for technical integrations, availability, and interoperability.
-                        - Working towards launching the product to customers.
+                        - Working towards productionizing backend services as the team heads towards launching the product to customers.
                 - company: Airbnb
                   time: July 2017 - June 2020
                   asset: https://chase-childers-assets.s3.amazonaws.com/images/Airbnb.png
